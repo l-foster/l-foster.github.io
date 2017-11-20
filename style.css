@@ -327,7 +327,7 @@ width:300px;}
 
 #sec-1 {width:100%;
 margin:auto;
-min-height: 500px;
+height: 500px;
 background-image:url(mob-pic1.jpeg);
 background-size:cover;}
 
