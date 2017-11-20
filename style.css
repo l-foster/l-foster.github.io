@@ -53,12 +53,12 @@ body {width:100%;
 font-family: 'Heebo', sans-serif;
 letter-spacing: 0.025em;}
 
-#container {max-width: 2000px;
+#container {max-width: 1600px;
 margin: auto;}
 
 p {font-size: 14px;
 line-height: 1.64em;
-font-weight: 300;
+font-weight: 400;
 color:#4C4C4B;}
 
 .title {font-family: 'Playfair Display', serif;
