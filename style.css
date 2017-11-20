@@ -1,0 +1,312 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* BEGIN STYLE */
+
+body {width:100%;
+font-family: 'Heebo', sans-serif;
+letter-spacing: 0.025em;}
+
+#container {max-width: 2000px;
+margin: auto;}
+
+p {font-size: 14px;
+line-height: 1.64em;
+font-weight: 300;
+color:#A3A5A7;}
+
+.title {font-family: 'Playfair Display', serif;
+font-weight: 400;
+font-size: 44px;
+color:#fff;
+line-height: 1.1em;}
+
+.dk {color:#808284;}
+
+.dk2 {color:#4C4C4B;}
+
+a {text-decoration: none;
+color:#808284;}
+
+a:hover {text-decoration: none;
+color:#4C4C4B;}
+
+/* MENU STYLE */
+
+#menu {width:100%;
+position:fixed;
+background-color: #fff}
+
+#dt-container {width:90%;
+margin:auto;
+height:60px;}
+
+#mob-container {display: none;}
+
+.shad {-webkit-box-shadow: 2px 2px 4px 0px rgba(203,203,203,.3);
+-moz-box-shadow: 2px 2px 4px 0px rgba(203,203,203,.3);
+box-shadow: 2px 2px 4px 0px rgba(203,203,203,.3);}
+
+ul li a {float:left;
+margin-right:30px;
+text-decoration: none;
+font-size: 13px;
+line-height: 65px;
+text-transform: capitalize;
+font-weight: 300;
+color:#A3A5A7;}
+
+/* SECTION 1 */
+
+#sec-1 {width:100%;
+margin:auto;
+min-height: 100vh;
+background-image:url(pic1.jpg);
+background-size:cover;}
+
+#appeal {float:left;
+margin-left:15%;
+width:500px;
+margin-top:55vh;
+display:none;}
+
+/* SECTION 2 */
+
+#sec-2 {width:100%;
+margin:auto;
+min-height: 60vh;
+display: flex;
+background-color: #808284;}
+
+.intro-txt {font-size: 30px;
+line-height: 1.4em;
+color:#fff;
+width:70%;
+margin:auto;
+font-weight: 300;}
+
+.opac {color:rgba(255,255,255,.7);}
+
+/* SECTION 3 */
+
+#sec-3 {width:100%;
+margin:auto;
+min-height: 100vh;}
+
+.b {width:90%;
+margin:auto;
+display: flex;
+padding-top:100px;
+overflow: hidden;}
+
+.pic {float:left;
+background-color: #dcdcdc;
+height:500px;
+width:50%;
+display: flex;
+}
+
+.text {margin:auto;
+width:46%;
+padding-left: 2%;
+padding-right: 2%;
+float:left;}
+
+.text-dt {margin:auto;
+width:46%;
+padding-left: 2%;
+padding-right: 2%;
+float:left;}
+
+.text-mob {display:none;}
+
+.no {text-transform: uppercase;
+padding-bottom:10px;
+font-size: 12px;
+letter-spacing: .1em;}
+
+.belief {color:#4C4C4B;
+font-family: 'Playfair Display', serif;
+font-weight: 400;
+font-size: 26px;
+padding-bottom:20px;
+line-height: 1.2em;}
+
+.cap {color:#fff;
+padding-left:2%;
+padding-bottom: 2%;
+width:100%;
+font-size: 12px;
+align-self: flex-end;}
+
+.explainer {padding-bottom: 20px;}
+
+#footer {width:100%;
+text-align: center;
+padding:150px 0px 50px 0px;}
+
+#footer p {text-transform: uppercase;
+font-size: 12px;
+letter-spacing: .1em;
+color:rgba(163,165,167,.6);}
+
+
+/* START 800PX RESPONSIVE STYLES */
+
+@media screen and (max-width: 800px) {
+
+#appeal {margin-left:0%;
+text-align: center;
+width:100%;}
+
+.intro-txt {font-size: 22px;
+width: 80%;}
+
+.b {width:100%;
+margin:auto;
+display: block;
+padding-top:100px;
+overflow: hidden;}
+
+.pic {float:none;
+background-color: #dcdcdc;
+height:350px;
+width:100%;
+display: flex;
+}
+
+.text {margin:auto;
+width:92%;
+padding-left: 4%;
+padding-right: 4%;
+padding-top:10%;
+float:none;
+clear:both;}
+
+.text-mob {display:block;
+margin:auto;
+width:92%;
+padding-left: 4%;
+padding-right: 4%;
+padding-top:10%;
+float:none;
+clear:both;}
+
+.text-dt {display:none;}
+
+#dt-container {display:none;}
+
+#mob-container {display: block;
+height: 40px;
+text-align: center;}
+
+#mob-container p {line-height: 45px;}
+
+#mob-menu {background-color: #fff;
+width:100%;
+z-index: 10;
+position: absolute;
+top: 0;
+margin-top: 40px;
+padding-bottom: 20px;
+display: none;}
+
+#line {padding-top: 45px;}
+
+#mm {text-transform: uppercase;
+font-size: 12px;
+letter-spacing: .1em;
+color:rgba(163,165,167,.6);}
+
+}
+
+/* START 600PX RESPONSIVE STYLES */
+
+@media screen and (max-width: 600px) {
+
+#appeal {margin-left:0%;
+text-align: center;}
+
+.title {font-size: 32px;}
+
+}
+
+/* START 400PX RESPONSIVE STYLES */
+
+@media screen and (max-width: 400px) {
+
+#appeal {margin-left:0%;
+text-align: center;}
+
+.title {font-size: 38px;}
+
+.intro-txt {font-size: 18px;
+width: 80%;}
+
+.belief {font-size: 22px;}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
