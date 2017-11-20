@@ -269,6 +269,10 @@ color:rgba(163,165,167,.6);}
 
 .title {font-size: 32px;}
 
+#appeal {margin-left:0%;
+margin-top:45vh;
+width:300px;}
+
 }
 
 /* START 400PX RESPONSIVE STYLES */
