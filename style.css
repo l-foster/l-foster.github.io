@@ -59,13 +59,23 @@ margin: auto;}
 p {font-size: 14px;
 line-height: 1.64em;
 font-weight: 300;
-color:#A3A5A7;}
+color:#4C4C4B;}
 
 .title {font-family: 'Playfair Display', serif;
 font-weight: 400;
 font-size: 44px;
 color:#fff;
 line-height: 1.1em;}
+
+#intro {font-family: 'Playfair Display', serif;
+font-weight: 400;
+font-size: 40px;
+color:#4C4C4B;
+line-height: 1.1em;
+width:80%;
+margin:auto;
+padding:150px 0px 50px 0px;
+text-align: center;}
 
 .dk {color:#808284;}
 
@@ -100,7 +110,7 @@ font-size: 13px;
 line-height: 65px;
 text-transform: capitalize;
 font-weight: 300;
-color:#A3A5A7;}
+color:#808284;}
 
 /* SECTION 1 */
 
@@ -124,11 +134,13 @@ min-height: 60vh;
 display: flex;
 background-color: #808284;}
 
-.intro-txt {font-size: 30px;
-line-height: 1.4em;
+.intro-txt {font-size: 24px;
+line-height: 1.6em;
 color:#fff;
-width:70%;
+width:80%;
+max-width: 1400px;
 margin:auto;
+padding:100px 0px 100px 0px;
 font-weight: 300;}
 
 .opac {color:rgba(255,255,255,.7);}
@@ -153,15 +165,11 @@ display: flex;
 }
 
 .text {margin:auto;
-width:46%;
-padding-left: 2%;
-padding-right: 2%;
+width:44%;
 float:left;}
 
 .text-dt {margin:auto;
-width:46%;
-padding-left: 2%;
-padding-right: 2%;
+width:44%;
 float:left;}
 
 .text-mob {display:none;}
@@ -169,6 +177,7 @@ float:left;}
 .no {text-transform: uppercase;
 padding-bottom:10px;
 font-size: 12px;
+color:#A3A5A7;
 letter-spacing: .1em;}
 
 .belief {color:#4C4C4B;
