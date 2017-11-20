@@ -200,9 +200,15 @@ color:rgba(163,165,167,.6);}
 
 @media screen and (max-width: 2000px) {
 
+#appeal {float:left;
+margin-left:15%;
+width:600px;
+margin-top:55vh;
+display:none;}
+
 .title {font-family: 'Playfair Display', serif;
-font-weight: 450;
-font-size:56px;
+font-weight: 400;
+font-size:62px;
 color:#fff;
 line-height: 1.2em;}
 
