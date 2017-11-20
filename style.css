@@ -67,8 +67,8 @@ font-size: 44px;
 color:#fff;
 line-height: 1.1em;}
 
-#intro {font-family: 'Playfair Display', serif;
-font-weight: 400;
+#intro {font-family: 'Heebo', sans-serif;
+font-weight: 500;
 font-size: 40px;
 color:#4C4C4B;
 line-height: 1.1em;
@@ -134,13 +134,25 @@ min-height: 60vh;
 display: flex;
 background-color: #808284;}
 
-.intro-txt {font-size: 24px;
-line-height: 1.6em;
+#me {margin:auto;}
+
+.brief {font-size: 24px;
+line-height: 1.8em;
 color:#fff;
 width:80%;
-max-width: 1400px;
+max-width: 1300px;
 margin:auto;
-padding:100px 0px 100px 0px;
+padding:100px 0px 20px 0px;
+font-weight: 300;}
+
+.intro-txt {clear:left;
+font-size: 24px;
+line-height: 1.6em;
+color:rgba(255,255,255,.7);
+width:80%;
+max-width: 1300px;
+margin:auto;
+padding:0px 0px 100px 0px;
 font-weight: 300;}
 
 .opac {color:rgba(255,255,255,.7);}
@@ -220,6 +232,25 @@ font-weight: 400;
 font-size:62px;
 color:#fff;
 line-height: 1.2em;}
+
+.brief {font-size: 24px;
+line-height: 1.8em;
+color:#fff;
+width:80%;
+max-width: 1200px;
+margin:auto;
+padding:100px 0px 20px 0px;
+font-weight: 300;}
+
+.intro-txt {clear:left;
+font-size: 24px;
+line-height: 1.6em;
+color:rgba(255,255,255,.7);
+width:80%;
+max-width: 1200px;
+margin:auto;
+padding:0px 0px 100px 0px;
+font-weight: 300;}
 
 }
 
