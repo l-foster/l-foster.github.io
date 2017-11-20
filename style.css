@@ -107,7 +107,7 @@ color:#A3A5A7;}
 #sec-1 {width:100%;
 margin:auto;
 min-height: 100vh;
-background-image:url(pic1.jpeg) no-repeat center center fixed;
+background-image:url(pic1.jpeg) no-repeat center center;
 background-size:cover;}
 
 #appeal {float:left;
