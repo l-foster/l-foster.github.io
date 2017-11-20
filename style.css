@@ -201,9 +201,6 @@ color:rgba(163,165,167,.6);}
 
 @media screen and (max-width: 800px) {
 
-#appeal {margin-left:0%;
-text-align: center;
-width:100%;}
 
 .intro-txt {font-size: 22px;
 width: 80%;}
@@ -270,9 +267,6 @@ color:rgba(163,165,167,.6);}
 
 @media screen and (max-width: 600px) {
 
-#appeal {margin-left:0%;
-text-align: center;}
-
 .title {font-size: 32px;}
 
 }
@@ -288,7 +282,8 @@ background-image:url(mob-pic1.jpeg);
 background-size:cover;}
 
 #appeal {margin-left:0%;
-text-align: center;}
+text-align: center;
+width:100%;}
 
 .title {font-size: 38px;}
 
