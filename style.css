@@ -196,6 +196,31 @@ font-size: 12px;
 letter-spacing: .1em;
 color:rgba(163,165,167,.6);}
 
+/* START 2000PX RESPONSIVE STYLES */
+
+@media screen and (max-width: 2000px) {
+
+.title {font-family: 'Playfair Display', serif;
+font-weight: 400;
+font-size: 44px;
+color:#fff;
+line-height: 1.1em;}
+
+}
+
+
+/* START 1400PX RESPONSIVE STYLES */
+
+@media screen and (max-width: 1400px) {
+
+.title {font-family: 'Playfair Display', serif;
+font-weight: 450;
+font-size: 52px;
+color:#fff;
+line-height: 1.1em;}
+
+}
+
 
 /* START 800PX RESPONSIVE STYLES */
 
