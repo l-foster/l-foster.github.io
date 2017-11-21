@@ -18,8 +18,12 @@ if (topHeight > 2) {
 $('#mm').on('click', function(e){
   e.preventDefault();
   $('#mob-menu').toggle();
-
 })
+
+$('.mob-menu-item').on('click', function(e){
+  e.preventDefault();
+  $('#mob-menu').hide();
+});
 
 
 // Select all links with hashes
