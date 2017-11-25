@@ -176,6 +176,49 @@ width:50%;
 display: flex;
 }
 
+#pic1 {float:left;
+background-image:url(outfit1.jpeg);
+background-size:cover;
+height:500px;
+width:50%;
+display: flex;
+}
+
+#pic2 {float:left;
+background-image:url(outfit2.jpeg);
+background-size:cover;
+height:500px;
+width:50%;
+display: flex;
+}
+
+#pic3 {float:left;
+background-image:url(outfit3.jpeg);
+background-size:cover;
+height:500px;
+width:50%;
+display: flex;
+}
+
+
+#pic4 {float:left;
+background-image:url(outfit4.jpeg);
+background-size:cover;
+height:500px;
+width:50%;
+display: flex;
+}
+
+
+#pic5 {float:left;
+background-image:url(outfit5.jpeg);
+background-size:cover;
+height:500px;
+width:50%;
+display: flex;
+}
+
+
 .text {margin:auto;
 width:44%;
 float:left;}
